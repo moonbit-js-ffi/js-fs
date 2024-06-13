@@ -12,14 +12,15 @@ function $print_string(a) {
     $output_buffer = $output_buffer.slice(last_nl_index + 1);
   }
 }
+const username$hello$fs$$FS$readFileSync = (path) => require("fs").readFileSync(path).toString();
 function moonbitlang$core$builtin$$println$0$(input) {
   $print_string(input);
   $print_string("\n");
 }
-function username$hello$lib$$hello() {
-  return "Hello, world!";
+function username$hello$fs$$readFile(path) {
+  return username$hello$fs$$FS$readFileSync(path);
 }
 (function () {
-  moonbitlang$core$builtin$$println$0$(username$hello$lib$$hello());
+  moonbitlang$core$builtin$$println$0$(username$hello$fs$$readFile("./package.json"));
 }());
 $flush_output();

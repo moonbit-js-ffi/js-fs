@@ -1,3 +1,3 @@
 fn main {
-  println(@lib.hello())
+  println(@fs.readFile("./package.json"))
 }

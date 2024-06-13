@@ -3,21 +3,6 @@
   "name": "username/hello",
   "packages": [
     {
-      "is-main": false,
-      "is-third-party": false,
-      "root": "username/hello",
-      "rel": "lib",
-      "files": [
-        "/Users/bytedance/workspace/github/js-fs/lib/hello.mbt"
-      ],
-      "test-files": [
-        "/Users/bytedance/workspace/github/js-fs/lib/hello_test.mbt"
-      ],
-      "deps": [],
-      "test-deps": [],
-      "artifact": "/Users/bytedance/workspace/github/js-fs/target/wasm-gc/release/check/lib/lib.mi"
-    },
-    {
       "is-main": true,
       "is-third-party": false,
       "root": "username/hello",
@@ -28,12 +13,27 @@
       "test-files": [],
       "deps": [
         {
-          "path": "username/hello/lib",
-          "alias": "lib"
+          "path": "username/hello/fs",
+          "alias": "fs"
         }
       ],
       "test-deps": [],
       "artifact": "/Users/bytedance/workspace/github/js-fs/target/wasm-gc/release/check/main/main.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root": "username/hello",
+      "rel": "fs",
+      "files": [
+        "/Users/bytedance/workspace/github/js-fs/fs/hello.mbt"
+      ],
+      "test-files": [
+        "/Users/bytedance/workspace/github/js-fs/fs/hello_test.mbt"
+      ],
+      "deps": [],
+      "test-deps": [],
+      "artifact": "/Users/bytedance/workspace/github/js-fs/target/wasm-gc/release/check/fs/fs.mi"
     }
   ],
   "deps": [],

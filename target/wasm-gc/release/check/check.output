@@ -1,0 +1,4 @@
+moonc check /Users/bytedance/workspace/github/js-fs/fs/hello.mbt /Users/bytedance/workspace/github/js-fs/fs/hello_test.mbt -o /Users/bytedance/workspace/github/js-fs/target/wasm-gc/release/check/fs/fs.underscore_test.mi -pkg username/hello/fs -std-path /Users/bytedance/.moon/lib/core/target/wasm-gc/release/bundle -pkg-sources username/hello/fs:/Users/bytedance/workspace/github/js-fs/fs
+/Users/bytedance/workspace/github/js-fs/fs/hello.mbt:6:16-6:19 [E1002] Warning: Unused toplevel variable 'log'. Note if the body contains side effect, it will not happen. Use `fn init { .. }` to wrap the effect.
+/Users/bytedance/workspace/github/js-fs/fs/hello_test.mbt:2:6-2:11 [E4021] The value identifier hello is unbound.
+
