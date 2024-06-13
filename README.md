@@ -3,7 +3,7 @@
 
 ## Description
 
-js is a collection of filesystem for the MoonBit JavaScript FFI library.
+moonbit-js-ffi/fs is a collection of filesystem for the MoonBit JavaScript FFI library.
 
 ## Installation
 
