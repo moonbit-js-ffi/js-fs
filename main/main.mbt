@@ -1,3 +1,4 @@
 fn main {
-  println(@fs.readFile("./package.json"))
+  let a = @fs.readFile("./package.json")
+  println(a)
 }

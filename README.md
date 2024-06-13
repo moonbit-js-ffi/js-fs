@@ -11,7 +11,13 @@ moonbit-js-ffi/fs is a collection of filesystem for the MoonBit JavaScript FFI l
 
 ## Usage
 
-See top folder.
+```rust
+fn main {
+  let a = @fs.readFile("./package.json")
+  println(a)
+}
+
+```
 
 ## About
 

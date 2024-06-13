@@ -21,6 +21,7 @@ function username$hello$fs$$readFile(path) {
   return username$hello$fs$$FS$readFileSync(path);
 }
 (function () {
-  moonbitlang$core$builtin$$println$0$(username$hello$fs$$readFile("./package.json"));
+  const a = username$hello$fs$$readFile("./package.json");
+  moonbitlang$core$builtin$$println$0$(a);
 }());
 $flush_output();
